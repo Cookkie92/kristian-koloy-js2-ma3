@@ -18,7 +18,7 @@ function submitForm(event) {
   const passwordValue = password.value.trim();
 
   if (usernameValue.length === 0 || passwordValue.length === 0) {
-    console.log("LOOOOL");
+    console.log("nonono");
     displayMessage("warning", "invalid values", ".message-container");
   }
 
@@ -51,7 +51,11 @@ async function doLogin(username, password) {
     }
 
     if (json.error) {
-      displayMessage("warning", "invalid login details", ".message-container");
+      displayMessage(
+        "warning",
+        "Wrong Username/Password",
+        ".message-container"
+      );
     }
   } catch (error) {
     console.log(error);
