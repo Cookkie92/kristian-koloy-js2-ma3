@@ -42,7 +42,6 @@ async function doLogin(username, password) {
     const json = await response.json();
 
     if (json.user && json.jwt) {
-      //   displayMessage("success", "Successful login", ".message-container");
       console.log(json);
       saveToken(json.jwt);
       saveUser(json.user);

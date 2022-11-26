@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(6, 6, 6);
+  background-image: url("/images/mountains-gf396773cd_1280.jpg");
+  background-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+
+.container {
+  max-width: 300px;
+  color: white;
+  align-items: center;
+  margin: 0 auto;
+  padding: 100px;
+  border-radius: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: rgba(13, 13, 12, 0.2);
+  margin-top: 100px;
+}
+
+::placeholder {
+  color: rgb(242, 236, 236);
+}
+input {
+  margin: 5px;
+  padding: 15px;
+  width: 200px;
+  border-color: white;
+  border-bottom-style: groove;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  background-color: rgb(208, 209, 209, 0.02);
+}
+button {
+  background-color: #2670e7;
+  color: rgb(245, 239, 239);
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  border-radius: 8px;
+  border-color: white;
+  font-size: 1.05rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(71, 128, 249);
+  letter-spacing: 2.5px;
+}
+.message-container {
+  background-color: red;
+}
+
+input,
+select,
+textarea {
+  color: #ffffff;
+}
+
+textarea:focus,
+input:focus {
+  color: #ffffff;
+}
