@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(6, 6, 6);
   background-image: url("/images/mountains-gf396773cd_1280.jpg");
   background-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
@@ -51,7 +50,10 @@ button:hover {
   letter-spacing: 2.5px;
 }
 .message-container {
-  background-color: red;
+  color: red;
+  max-width: 300px;
+  font-weight: bold;
+  font-size: 10px;
 }
 
 input,
