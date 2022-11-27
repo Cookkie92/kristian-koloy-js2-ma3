@@ -3,7 +3,10 @@ body {
   background-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
 }
-
+.hello-user {
+  text-align: center;
+  padding-top: 200px;
+}
 .container {
   max-width: 300px;
   color: white;
