@@ -6,6 +6,7 @@ body {
 .hello-user {
   text-align: center;
   padding-top: 200px;
+  color: white;
 }
 .container {
   max-width: 300px;
